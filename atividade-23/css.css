@@ -1,0 +1,26 @@
+body {
+    background-color: #f4f6f9;
+    color: #333333;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    color: #1a5276;
+    text-align: center;
+    font-size: 32px;
+
+}
+
+p {
+    font-size: 18px;
+    text-align: justify;
+    line-height: 1.6;
+}
+
+.caixa-destaque {
+    background-color: #e8f8f5;
+    border: 2px solid #1abc9c;
+    padding: 15px;
+    border-radius: 8px;
+}

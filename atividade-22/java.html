@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ana Carolina Correa">
+    <link rel="stylesheet" href="style.css">
+    <title>Interatividade com JavaScript - Exercício 22</title>
+</head>
+<body>
+
+    <h1 id="titulo-principal">Texto Original do Título</h1>
+    <p>Clique nos botões abaixo para alterar o conteúdo do título acima em tempo real:</p>
+
+    <button type="button" onclick="alterarTexto()">Clique Aqui</button>
+
+    <button type="button" onclick="restaurarTexto()">Mudar Novamente</button>
+
+    <script>
+        function alterarTexto() {
+            document.getElementById("titulo-principal").innerText = "Você clicou no primeiro botão!";
+        }
+
+        function restaurarTexto() {
+            document.getElementById("titulo-principal").innerText = "Texto alterado pelo segundo botão!";
+        }
+    </script>
+
+</body>
+</html>

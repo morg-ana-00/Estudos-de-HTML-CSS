@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    padding: 20px;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.bloco {
+    padding: 30px 15px;
+    border-radius: 8px;
+    text-align: center;
+    color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.bloco h3 {
+    margin: 0 0 10px 0;
+    font-size: 18px;
+}
+
+.bloco code {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.cor-nome {
+    background-color: Tomato;
+}
+
+.cor-nome-2 {
+    background-color: DodgerBlue;
+}
+
+.cor-hex {
+    background-color: #2ecc71;
+}
+
+.cor-hex-2 {
+    background-color: #9b59b6;
+}
+
+.cor-rgb {
+    background-color: rgb(230, 126, 34);
+}
+
+.cor-rgba {
+    background-color: rgba(52, 152, 219, 0.5);
+    color: #000;
+}
+
+.cor-hsl {
+    background-color: hsl(348, 83%, 47%);
+}
+
+.cor-hsla {
+    background-color: hsla(160, 100%, 75%, 0.6);
+    color: #000;
+}

@@ -1,0 +1,52 @@
+/* ==========================================================================
+   DESAFIO: EXPLICAÇÃO DA ESTRUTURA SINTÁTICA DO CSS
+   
+   seletor { 
+       propriedade: valor; 
+   }
+
+   1. SELETOR: Indica QUAL elemento (ou grupo de elementos) do HTML receberá a estilização.
+      Pode ser uma tag (ex: h1, p), uma classe (ex: .subtitulo) ou um id (ex: #topo).
+   
+   2. PROPRIEDADE: Especifica QUAL característica visual do elemento será alterada 
+      (ex: color, background-color, font-size, margin).
+   
+   3. VALOR: Define O MODO ou A INTENSIDADE da alteração aplicada à propriedade 
+      (ex: red, #333333, 16px, center).
+   ========================================================================== */
+
+body {
+    background-color: #f0f4f8;   /* Propriedade 1: Cor de fundo */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Propriedade 2: Família da fonte */
+    margin: 0;                   /* Propriedade 3: Margens externas */
+    padding: 20px;               /* Propriedade 4: Espaçamento interno */
+}
+
+
+.header-container {
+    text-align: center;          /* Propriedade 5: Alinhamento de texto */
+    color: #1e3a8a;              /* Propriedade 6: Cor do texto */
+    margin-bottom: 30px;
+}
+
+
+.subtitulo {
+    font-size: 20px;             /* Propriedade 7: Tamanho da fonte */
+    font-weight: 500;            /* Propriedade 8: Peso/Espessura da fonte (médio) */
+    color: #3b82f6;
+}
+
+.paragraf-destaque {
+    font-size: 18px;
+    font-style: italic;
+    line-height: 1.6;
+    color: #1f2937;
+    margin-bottom: 15px;
+}
+
+.card-exemplo {
+    background-color: #ffffff;
+    border-left: 5px solid #3b82f6;
+    padding: 15px;
+    border-radius: 4px;
+}

@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333333;
+    line-height: 1.6;
+}
+
+.conteudo {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.secao-capa {
+    background-image: url(img/capa.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.mascara-overlay {
+    background-color: rgba(0, 0, 0, 0.65);
+    padding: 40px;
+    border-radius: 10px;
+    color: #ffffff;
+    max-width: 700px;
+}
+
+.mascara-overlay h1 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.btn-destaque {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 24px;
+    background-color: #b53600;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.secao-cor {
+    background-color: #1a252f;
+    color: #ffffff;
+    padding: 60px 20px;
+}
+
+.secao-imagem {
+    background-image: url(img/florazul.png);
+    background-size: cover;
+    background-position: center;
+    padding: 80px 20px;
+}
+
+.secao-imagem .conteudo {
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #222222;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: #2c3e50;
+    width: 280px;
+    border: 2px solid #b53600;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card h3 {
+    color: #b53600;
+    margin-bottom: 15px;
+}
+
+.card p {
+    font-size: 14px;
+    margin-bottom: 25px;
+    color: #d1d8e0;
+}
+
+.btn-card {
+    background-color: transparent;
+    color: #b53600;
+    border: 2px solid #b53600;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-card:hover {
+    background-color: #b53600;
+    color: #ffffff;
+}

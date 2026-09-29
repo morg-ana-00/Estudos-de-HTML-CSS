@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ana Carolina Correa">
+    <link rel="stylesheet" href="style.css">
+    <title>Estrutura com Div - Exercício 17</title>
+    <style>
+        /* CSS para o Desafio: Áreas de Conteúdo Lado a Lado */
+        .conteudo-principal {
+            display: flex; /* Alinha os filhos lado a lado */
+            gap: 20px;     /* Espaço entre as duas divs */
+        }
+
+        .artigo {
+            flex: 2; /* Ocupa 2 partes do espaço */
+            background-color: #f0f0f0;
+            padding: 15px;
+        }
+
+        .lateral {
+            flex: 1; /* Ocupa 1 parte do espaço */
+            background-color: #e0e0e0;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 1. DIV CABEÇALHO -->
+    <div class="cabecalho">
+        <h1>Meu Portal de Notícias</h1>
+        <p>Acompanhe as principais novidades da tecnologia</p>
+    </div>
+
+    <!-- 2. DIV MENU DE NAVEGAÇÃO -->
+    <div class="menu">
+        <ul>
+            <li><a href="#">Início</a></li>
+            <li><a href="#">Tecnologia</a></li>
+            <li><a href="#">Inovação</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+    </div>
+
+    <hr>
+
+    <!-- 3. DIV CONTEÚDO PRINCIPAL (CONTÊINER DOS CONTEÚDOS LADO A LADO) -->
+    <div class="conteudo-principal">
+        
+        <!-- Área Lado a Lado 1: Artigo Principal -->
+        <div class="artigo">
+            <h2>Desenvolvimento Web Semântico</h2>
+            <p>O uso correto de contêineres e elementos semânticos no HTML permite estruturar o código de forma limpa e compreensível, facilitando tanto a manutenção por desenvolvedores quanto a leitura por motores de busca e leitores de tela.</p>
+        </div>
+
+        <!-- Área Lado a Lado 2: Barra Lateral (Sidebar) -->
+        <div class="lateral">
+            <h3>Notícias Rápidas</h3>
+            <p>Confira as últimas novidades sobre o mercado de trabalho em programação e tendências de tecnologia.</p>
+        </div>
+
+    </div>
+
+    <hr>
+
+    <!-- 4. DIV RODAPÉ -->
+    <div class="rodape">
+        <p>&copy; 2026 Meu Portal de Notícias. Todos os direitos reservados.</p>
+    </div>
+
+</body>
+</html>
